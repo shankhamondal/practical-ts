@@ -1,7 +1,7 @@
-let fullName = "Shankha";
-let age = 20;
-let gender = "Male";
-let phonenumber = "9749025576";
+let fullName: string = "Shankha";
+let age: string = "20";
+let gender: string = "Male";
+let phonenumber: string = "9749025576";
 
 console.log(fullName);
 console.log(age);
