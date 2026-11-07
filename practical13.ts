@@ -1,9 +1,11 @@
-function normalFunction(username: string) {
-  console.log(`Hello ${username} from normal function`);
+function normalFunction(userName: string) {
+  console.log(`Hello ${userName} from normal function`);
 }
+
 normalFunction("Babu");
 
-const async = (username: string) => {
-  console.log(`Hello ${username} from arrow function`);
+const async = (userName: string) => {
+  console.log(`Hello ${userName} from arrow function`);
 };
-async("Shankha Mondal");
+
+async("Babu");

@@ -1,11 +1,11 @@
 let userobject: {
   fullName: string;
-  Age: string;
+  Age: number;
   Gender: string;
   phoneNumber: string;
 } = {
   fullName: "Shankha Mondal",
-  Age: "20",
+  Age: 20,
   Gender: "Male",
   phoneNumber: "9749025576",
 };

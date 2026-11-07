@@ -1,5 +1,5 @@
 let fullName: string = "Shankha";
-let age: string = "20";
+let age: number = 20;
 let gender: string = "Male";
 let phonenumber: string = "9749025576";
 
