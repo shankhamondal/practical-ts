@@ -1,4 +1,4 @@
-let Daynumber = 8;
+let Daynumber: number = 8;
 
 switch (Daynumber) {
   case 1:

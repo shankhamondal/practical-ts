@@ -1,4 +1,7 @@
-let User = {
+let User: {
+  Name: string;
+  Role: string;
+} = {
   Name: "Babu",
   Role: "User",
 };

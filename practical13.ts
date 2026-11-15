@@ -4,8 +4,8 @@ function normalFunction(userName: string) {
 
 normalFunction("Babu");
 
-const arrowFun = (userName: string) => {
+const arrowFunction = (userName: string) => {
   console.log(`Hello ${userName} from arrow function`);
 };
 
-arrowFun("Babu");
+arrowFunction("Babu");

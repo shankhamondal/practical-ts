@@ -1,6 +1,6 @@
-let userArrey = ["Shankha Mondal", "20", "Gender", "9749025576"];
+let userArray: string[] = ["Shankha Mondal", "20", "Male", "9749025576"];
 
-console.log(`Full Name: ${userArrey[0]}`);
-console.log(`Age: ${userArrey[1]}`);
-console.log(`Gender: ${userArrey[2]}`);
-console.log(`Phone Number: ${userArrey[3]}`);
+console.log(`Full Name: ${userArray[0]}`);
+console.log(`Age: ${userArray[1]}`);
+console.log(`Gender: ${userArray[2]}`);
+console.log(`Phone Number: ${userArray[3]}`);

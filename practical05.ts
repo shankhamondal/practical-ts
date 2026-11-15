@@ -1,4 +1,4 @@
-let number = 7;
+let number: number = 7;
 
 console.log(`${number} X 1  = ${number * 1}`);
 console.log(`${number} X 2  = ${number * 2}`);

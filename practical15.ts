@@ -1,4 +1,4 @@
-let Discountrate = 20;
+let Discountrate: number = 20;
 let Productdata = [
   {
     Name: "Laptop",

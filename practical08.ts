@@ -1,7 +1,11 @@
-let userobject = {
+let userobject: {
+  Name: string;
+  marks: number;
+} = {
   Name: "Shankha Mondal",
   marks: 26,
 };
+
 if (userobject.marks >= 35) {
   console.log(`Congratulation ${userobject.Name}! You passed the EXAM.`);
 } else {

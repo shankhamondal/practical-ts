@@ -1,11 +1,16 @@
-let userObject = {
+let userObject: {
+  fullname: string;
+  age: number;
+  gender: string;
+  phonenumber: string;
+} = {
   fullname: "Shankha Mondal",
   age: 20,
   gender: "Male",
   phonenumber: "9749025576",
 };
 
-let delayTime = 2000;
+let delayTime: number = 2000;
 console.log(`Your details will be shawn in ${delayTime / 1000} seconds.`);
 console.log("----------------------------------------");
 

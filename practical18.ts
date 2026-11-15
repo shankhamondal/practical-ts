@@ -1,6 +1,6 @@
-let startCount = 0;
-let endtCount = 10;
-let intervalTime = 1000;
+let startCount: number = 0;
+let endtCount: number = 10;
+let intervalTime: number = 1000;
 console.log(`Counting up from ${startCount} to ${endtCount}`);
 console.log("------------------------");
 

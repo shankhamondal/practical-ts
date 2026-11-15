@@ -1,7 +1,7 @@
-let Discount = 10;
-let Laptop = 70000;
-let headphone = 2500;
-let speaker = 1500;
+let Discount: number = 10;
+let Laptop: number = 70000;
+let headphone: number = 2500;
+let speaker: number = 1500;
 
 console.log(`Flat Discount Rate: ${Discount}%`);
 

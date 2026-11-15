@@ -1,11 +1,11 @@
 let userobject: {
   fullName: string;
-  Age: number;
+  Age: string;
   Gender: string;
   phoneNumber: string;
 } = {
   fullName: "Shankha Mondal",
-  Age: 20,
+  Age: "20",
   Gender: "Male",
   phoneNumber: "9749025576",
 };
@@ -13,4 +13,4 @@ let userobject: {
 console.log(`FullName: ${userobject.fullName}`);
 console.log(`Age: ${userobject.Age}`);
 console.log(`Gender: ${userobject.Gender}`);
-console.log(`Phone Number:${userobject.phoneNumber}`);
+console.log(`Phone Number: ${userobject.phoneNumber}`);

@@ -3,7 +3,7 @@ const tableGenerator = (
   length: number,
   intervalTime: number,
 ) => {
-  let index = 1;
+  let index: number = 1;
   console.log(`Generating table of number ${number} upto ${length} times.`);
   console.log("------------------------------------");
 
